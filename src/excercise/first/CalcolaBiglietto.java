@@ -25,6 +25,6 @@ public class CalcolaBiglietto {
         final_price = price - ((price * discount) / 100);
         System.out.println("Prezzo del biglietto: " + final_price + " euro");
 
-
+    scanner.close();
     }
 }
